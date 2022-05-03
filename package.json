@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "starter for tmo-galv onboarding bootcamp preassessment",
   "main": "index.js",
+  "type": "module",
+  
   "scripts": {
     "test": "mocha",
-    "start": "node ./server/index.js",
-    "dev": "nodemon ./server/index.js"
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "author": "dhkaneda",
   "license": "ISC",
